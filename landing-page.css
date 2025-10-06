@@ -189,7 +189,7 @@ hr {
 }
 
 .skills-image {
-    width: 7rem;
+    width: 8.4rem;
     aspect-ratio: 3 / 2;
     object-fit: cover;
     background: linear-gradient(#313131 4%, transparent 80%);
@@ -216,7 +216,7 @@ hr {
 }
 
 .projects-img {
-    width: 14.5rem;
+    width: 17rem;
     aspect-ratio: 4 / 2;
     object-fit: cover;
     border-radius: 10px;
@@ -238,7 +238,7 @@ hr {
 }
 
 .certificate-img {
-    width: 14.5rem;
+    width: 17rem;
     border-radius: 10px;
 }
 
@@ -281,7 +281,7 @@ hr {
 }
 
 .contact-form {
-    width: 13rem;
+    width: 15rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
