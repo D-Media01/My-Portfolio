@@ -11,6 +11,8 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 1.3rem;
     overflow-x: hidden;
+    margin: 0 auto;
+    font-family: 500;
 }
 
 a {
@@ -18,9 +20,11 @@ a {
     text-decoration: none;
 }
 
-.section-wrap {
+/*.section-wrap {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #section-1 {
@@ -29,10 +33,10 @@ a {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 2.4rem;
-    position: fixed;       /* Always visible */
+    position: fixed;       
     top: 0;
     left: 0;
-}
+} */
 
 .dmedia-logo {
     margin-top: 0.5rem;
@@ -61,12 +65,13 @@ a {
     border-radius: 30px;
 }
 
-#section-2 {
+/*#section-2 {
     width: 44.51%;
+    max-width: 600px;
     border-left: 0.02px solid rgb(73, 73, 73);
     border-right: 0.02px solid rgb(73, 73, 73);
-    margin-left: 20rem;
-}
+    margin-left: 5rem;
+} */
 
 .top-text {
     margin-left: 3rem;
@@ -88,9 +93,9 @@ a {
 
 .daniel-img {
     position: relative;
-    top: -5rem;
+    top: -2.5rem;
     left: 1rem;
-    width:9rem;
+    width: 5rem;
     object-fit: cover;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
@@ -122,6 +127,10 @@ a {
     align-items: center;
     color: rgb(73, 73, 73);
     margin-bottom: 1rem;
+}
+
+.bio-wrap {
+    margin-top: 2.8rem;
 }
 
 hr {
@@ -167,23 +176,23 @@ hr {
 }
 
 .skills-content {
-    margin-right: 1rem;
+    margin-right: 0rem;
     margin-bottom: 1rem;
 }
 
 .skill-list {
     font-size: 0.96rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
 }
 
 .skills-image {
-    width: 10rem;
+    width: 7rem;
     aspect-ratio: 3 / 2;
     object-fit: cover;
     background: linear-gradient(#313131 4%, transparent 80%);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .skill-img-title {
@@ -206,10 +215,10 @@ hr {
 }
 
 .projects-img {
-    width: 30rem;
+    width: 14.5rem;
     aspect-ratio: 4 / 2;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .project-link {
@@ -228,8 +237,8 @@ hr {
 }
 
 .certificate-img {
-    width: 30rem;
-    border-radius: 20px;
+    width: 14.5rem;
+    border-radius: 10px;
 }
 
 .ai-900 {
@@ -250,19 +259,28 @@ hr {
     margin-left: 4.5rem;
 }
 
+.email {
+    font-size: 0.9rem;
+}
+
 .socials {
-    display: flex;
-    flex: row;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 .social-icon-wrap {
     display: flex;
     flex-direction: row;
+    gap: 0rem;
+}
+
+.social-text {
+    font-size: 1.2rem;
 }
 
 .contact-form {
-    width: 20rem;
+    width: 13rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -288,7 +306,7 @@ hr {
 }
 
 fieldset {
-    width: 20rem;
+    width: 13.5rem;
     margin-top: 2rem;
     border-radius: 10px;
 }
@@ -298,7 +316,7 @@ legend {
 }
 
 
-#section-3 {
+/*#section-3 {
     width: 30.23%;
     padding-left: 2rem;
     position: sticky;
