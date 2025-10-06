@@ -179,7 +179,7 @@ hr {
 .skills-content {
     margin-right: 0rem;
     margin-bottom: 1rem;
-    padding-right: 1rem;
+    padding-right: 0.3rem;
 }
 
 .skill-list {
@@ -188,7 +188,7 @@ hr {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .skills-image {
